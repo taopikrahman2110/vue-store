@@ -1,7 +1,7 @@
 <template>
     <div class="partner-logo">
         <div class="container">
-            <carousel class="logo-carousel" :items="4" :autoplay="true" :dots="false" :nav="false">
+            <carousel class="logo-carousel" :items="4" :autoplay="true" :loop="true" :dots="false" :nav="false">
                 <div class="logo-item">
                     <div class="tablecell-inner">
                         <img src="img/logo-carousel/logo-1.png" alt="" />
