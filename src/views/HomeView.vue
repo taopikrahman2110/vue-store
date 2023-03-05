@@ -4,6 +4,8 @@
     <CarouselShayna />
     <WomanShayna />
     <InstagramShayna/>
+    <PartnerShayna />
+    <FooterShayna/>
   </div>
 </template>
 
@@ -15,6 +17,8 @@ import CarouselShayna from "@/components/CarouselShayna.vue";
 import HeaderShayna from "@/components/HeaderShayna.vue";
 import WomanShayna from '@/components/WomanShayna.vue';
 import InstagramShayna from '@/components/InstagramShayna.vue';
+import PartnerShayna from '@/components/PartnerShayna.vue';
+import FooterShayna from '@/components/FooterShayna.vue';
 
 
 
@@ -25,7 +29,9 @@ export default {
     HeaderShayna,    
     CarouselShayna,
     WomanShayna,
-    InstagramShayna
+    InstagramShayna,
+    PartnerShayna,
+    FooterShayna,
 },
 };
 </script>
