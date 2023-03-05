@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ProductView from '../views/ProductView.vue'
+import ShoppingView from '../views/ShoppingView.vue'
+import SuccessView from '../views/SuccessView.vue'
 
 Vue.use(VueRouter)
 
@@ -23,6 +25,16 @@ const routes = [
     path: '/product',
     name: 'product',
     component: ProductView,
+  },
+  {
+    path: '/shopping',
+    name: 'shopping',
+    component: ShoppingView,
+  },
+  {
+    path: '/success',
+    name: 'success',
+    component: SuccessView,
   },
 ]
 
